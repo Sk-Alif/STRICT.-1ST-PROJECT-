@@ -1,0 +1,1 @@
+# STRICT.-1ST-PROJECT-
