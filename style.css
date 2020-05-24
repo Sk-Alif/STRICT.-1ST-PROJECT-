@@ -1,0 +1,327 @@
+/*Global Css*/
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col-2 {
+    width: 16.67%;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+ 
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.67%;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.67%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+
+.col-11 {
+    width: 91.57%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+/*topbar css start*/
+.topbar{
+	background: #f6f9f9;
+    padding: 20px 0px 
+}
+.topbar .logo{}
+
+/*banner css start*/
+.banner{
+	background: url(image/banner.png);
+    height:625px;
+    background-position:center;
+    background-size:cover;
+ }
+.banner .hero-area{
+    text-align: center;
+    padding-top:140px;
+}
+.banner .hero-area h1{
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 120px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+.banner .hero-area .blue-line{
+	background: #15a4fa;
+    height: 2px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}                         
+
+.banner .hero-area p{
+	color:#fff;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.banner .hero-area .btn-cta{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #15a4fa;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.banner .hero-area .btn-cta:hover{
+    background: #15a4fa;
+    transition: .5s linear;
+}
+.banner .hero-area .arrow{
+	font-size: 20px;
+    margin-top: 125px;
+    color:#fff;
+}
+
+/*design css start*/
+
+.design{
+    background: #f6f9f9;
+    padding: 50px 0px;
+    text-align: center;
+}
+.design h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #2d3950;
+}
+.design p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0 7%;
+    color: #999999;
+}
+
+/*feature css start*/
+.feature{
+	padding: 50px 0px
+}
+.feature .box{
+	text-align: center;
+}
+.feature .box img{
+	margin-bottom: 20px
+}
+.feature .box h3{
+	font-size: 22px;
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+.feature .box p{
+	font-size: 15px;
+	color: #999999;
+	line-height:1.7;
+	margin: 0 10%
+}
+
+/*portfolio css start*/
+.portfolio{
+    background: #f6f9f9;
+    padding: 50px 0px;
+}
+.portfolio h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #2d3950;
+    text-align: center;
+}
+.portfolio p{
+	color: #909090;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.portfolio-box{
+    position: relative;
+    margin: 15px;
+}
+.hover-box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #15a4fac2;
+	height: 100%;
+	transition: 0.4s linear;
+	opacity: 0;
+}
+.hover-box ul{
+    padding-left: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.hover-box ul li{
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.hover-box ul li i{
+    color: #fff;
+}
+.portfolio-box:hover .hover-box{
+    opacity: 1;
+}
+
+.contact{
+	background: linear-gradient(rgba(45, 57, 80, 0.9), rgba(45, 57, 80, .9)),
+    url(image/contact-bg.png);
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0px;
+}
+.contact h2{
+	font-size:;
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.contact p{
+    color: #999999;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact form{
+    width: 60%;
+    margin: 0 auto;
+}
+.contact form .form-control{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+.contact form .check{
+	color: #fff;
+}
+.contact form .checkbox{
+	margin-top: 15px;
+}
+
+.contact form .btn-submit{
+    color: #fff;
+    float: right;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 7px 30px;
+    transition: .4s linear;
+}
+.contact form .btn-submit:hover{	
+    background: #15a4fa;
+}
+
+/*footer css start*/
+.footer{
+    padding: 20px 0px;
+}
+.footer p{
+    color: #999999;
+    margin-top: 10px;
+}
+.footer ul{
+    padding-left: 0;
+    float: right;   
+}
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 5px;
+}
+.footer ul li:last-child{
+	margin-right: 0
+}
+
+.footer ul li i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #15a4fa;
+	text-align: center;
+	color: #fff;
+	border-radius: 30px;
+}
+
+
+
+
+
+
